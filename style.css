@@ -675,7 +675,6 @@ p.client2{
     justify-content: center;
     padding: 20px;
     gap: 30px;
-    
 }
 .re7{
     background-color: rgb(255, 255, 255);
@@ -942,4 +941,27 @@ p.all42{
 }
 span.yel{
     color: #FFA800;
+}
+@media screen and (max-width: 600px) {
+    .header3{
+        display: none;
+    } 
+    img.two{
+        display: none;
+    }
+    .fill{
+        display: none;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+    .re8{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog{
+        display: flex;
+        flex-direction: column;
+    }
 }
