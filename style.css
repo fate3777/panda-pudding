@@ -32,6 +32,7 @@ body{
     padding: 18px;
     border-radius: 100px;
     font-weight: 900;
+    text-decoration: none;
 }
 .logo{
     display: flex;
@@ -41,6 +42,10 @@ body{
 a{
     text-decoration: none;
     color: white;
+    transition: 0.4s;
+}
+a:hover{
+  color: #FFA800;
 }
 .active{
     color: #FFA800;
@@ -290,6 +295,7 @@ p.favtool2{
     align-items: center;
     gap: 80px;
     margin: 0 100px;
+    flex-wrap: wrap;
 }
 .tool1{
     display: flex;
@@ -357,6 +363,7 @@ img.logo1{
 .contentt1,.contentt2{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .contentt{
     background-color: #DEDEDE;
@@ -402,6 +409,7 @@ img.ar{
 .king1{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .education{
     background-color: #DEDEDE;
@@ -544,6 +552,7 @@ p.giventext1{
     font-weight: 700;
     font-size: 24px;
     padding: 100px;
+    flex-wrap: wrap;
 }
 .contactus{
     padding: 0 30px;
@@ -584,6 +593,7 @@ span.ctt1{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    flex-wrap: wrap;
 }
 .fill1{
     padding-top: 40px;
@@ -591,6 +601,7 @@ span.ctt1{
     justify-content: center;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 .fillleft,.fillright{
     display: flex;
@@ -763,6 +774,7 @@ p.role{
     justify-content: space-between;
     align-items: end;
     margin-right: 80px;
+    flex-wrap: wrap;
 }
 .blog{
     display: flex;
@@ -875,6 +887,7 @@ img.minus{
     display: flex;
     justify-content: space-between;
     padding: 70px 100px;
+    flex-wrap: wrap;
 }
 p.con1{
     font-size: 45px;
@@ -889,6 +902,7 @@ span.con2{
     padding-left: 100px;
     font-size: 18px;
     font-weight: 600;
+    flex-wrap: wrap;
 }
 .all1{
     display: flex;
@@ -949,8 +963,21 @@ span.yel{
     img.two{
         display: none;
     }
-    .fill{
-        display: none;
+    .fill1{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .box1{
+        background-color: #DEDEDE;
+        color: #A7A7A7;
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        width: auto;
+        height: 250px;
+        justify-content: space-between;
     }
     .all{
         display: flex;
@@ -963,5 +990,27 @@ span.yel{
     .blog{
         display: flex;
         flex-direction: column;
+    }
+    .ask{
+    background-color: #3E5A44;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+.ask1{
+    background-color: #FFA800;
+    width: auto;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    flex-wrap: wrap;
     }
 }

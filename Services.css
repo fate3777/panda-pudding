@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css?family=Google+Sans:regular,500,600,700,italic,500italic,600italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Italianno:regular);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Google Sans';
+}
+.portfolio{
+    background-color: #FFA800;
+    padding: 2px;
+    margin: 20px;
+    border-radius: 100px;
+    display: inline-flex;
+    align-items: center;
+    width: 237px;
+    height: 50px;
+    justify-content: space-between;
+}
+.click1{
+    background-color: #2C4E34;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 45px;
+}
+ion-icon.play{
+    color: #2C4E34;
+    background-color: white;
+    border-radius: 60px;
+    padding: 5px;
+    font-size: 30px;
+    display: flex;
+    margin-left: 10px;
+}
+.header{
+    background: linear-gradient(90deg, #2A4C34, #4F7D58);
+    margin: 20px;
+    border-radius: 100px;
+    color: white;
+    padding: 10px;
+}
+.header2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.header3{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    
+}
+.header4{
+    display: flex;
+    background-color: white;
+    color: #2C4E34;
+    padding: 18px;
+    border-radius: 100px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+a:hover{
+  color: #FFA800;
+}
+.active{
+    color: #FFA800;
+    text-decoration: underline;
+}
+img.one{
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+}
+.service{
+    font-size: 27px;
+    font-weight: 800;
+    padding: 40px 60px;
+}
+.servicesline{
+    color: #FFA800;
+}
+span.s{
+    color: black;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bs{
+    color: #FFA800;
+    font-size: 33px;
+}
+span.p{
+    color: black;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    background-color: #C7C7C7;
+    padding: 24px 20px;
+    border-radius: 16px;
+    width: 260px;
+    display: inline-block;
+    margin: 10px;
+}
+.card p{
+    color: #474747;
+    margin-top: 8px;
+    font-size: 14px;
+}
+img.ux{
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.learn{
+    color: #474747;
+    font-weight: 800;
+}
+span.arrow{
+    color: #FFA800;
+    font-size: 13px;
+}
+.servicespic{
+    background: linear-gradient(90deg, #2A4C34, #4F7D58);
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+.ser{
+    display: flex;
+    align-items: end;
+}
+.who{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.serviceslinee{
+    color: #FFA800;
+    font-size: 27px;
+    font-weight: 800;
+}
+.ss{
+    color: white;
+}
+p.who{
+    font-size: 40px;
+    font-weight: 800;
+}
+.whoo{
+    color: #FFA800;
+    font-weight: 100;
+}
+.textt{
+    color: #C7C7C7;
+}
+.ov{
+    display: flex;
+    margin: 20px 0;
+    gap: 20px;
+}
+p.num{
+    color: #FFA800;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 18px;
+}
+p.abou{
+    color: #C7C7C7;
+    font-size: 14px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign{
+    font-size: 50px;
+    font-family: 'Italianno';
+    color: #FFA800;
+}
+@media screen and (max-width: 600px) {
+    .header3{
+        display: none;
+    } 
+    img.two{
+        display: none;
+    }
+    .fill{
+        display: none;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+    .re8{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog{
+        display: flex;
+        flex-direction: column;
+    }
+}

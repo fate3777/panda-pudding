@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Google+Sans:regular,500,600,700,italic,500italic,600italic,700italic);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Google Sans';
+}
+.header{
+    background: linear-gradient(90deg, #2A4C34, #4F7D58);
+    margin: 20px;
+    border-radius: 100px;
+    color: white;
+    padding: 10px;
+}
+.header2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.header3{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    
+}
+.header4{
+    display: flex;
+    background-color: white;
+    color: #2C4E34;
+    padding: 18px;
+    border-radius: 100px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+a:hover{
+  color: #FFA800;
+}
+.active{
+    color: #FFA800;
+    text-decoration: underline;
+}
+img.one{
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+}
+@media screen and (max-width: 600px) {
+    .header3{
+        display: none;
+    } 
+    img.two{
+        display: none;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+    .re8{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.tools{
+    color: #FFA800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin: 40px;
+    font-weight: 900;
+}
+span.fav{
+    color: black;
+    font-size: 30px;
+}
+p.favtool2{
+    color: black;
+}
+.tool{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 0 100px;
+    flex-wrap: wrap;
+}
+.tool1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.tool2{
+    background-color: #4F7D58;
+    padding: 10px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.logos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.king1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.education{
+    background-color: #DEDEDE;
+    margin: 35px;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 340px;
+    height: 400px;
+}
+img.lol{
+    width: 60px;
+    height: auto;
+}
+.exp{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.white{
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 14px;
+}
+p.lol3{
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+}
+.favv{
+    color: black;
+}

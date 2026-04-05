@@ -1,0 +1,245 @@
+@import url(https://fonts.googleapis.com/css?family=Google+Sans:regular,500,600,700,italic,500italic,600italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Italianno:regular);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Google Sans';
+}
+.header{
+    background: linear-gradient(90deg, #2A4C34, #4F7D58);
+    margin: 20px;
+    border-radius: 100px;
+    color: white;
+    padding: 10px;
+}
+.header2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.header3{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    
+}
+.header4{
+    display: flex;
+    background-color: white;
+    color: #2C4E34;
+    padding: 18px;
+    border-radius: 100px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+a:hover{
+  color: #FFA800;
+}
+.active{
+    color: #FFA800;
+    text-decoration: underline;
+}
+img.one{
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+}
+.ma{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 40px;
+    margin-right: 50px;
+}
+.text{
+    padding: 10px;     
+    margin: 0 400px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.n{
+    color: #FFA800;
+    text-decoration: underline;
+}
+.text1{
+    padding: 10px 0;
+    font-size: 27px;
+}
+p.text3,p.text4,p.text5{
+    color: #696969;
+}
+.content{
+    font-size: 20px;
+    padding: 30px;
+}
+.portfolio{
+    background-color: #FFA800;
+    padding: 2px;
+    margin: 20px;
+    border-radius: 100px;
+    display: inline-flex;
+    align-items: center;
+    width: 237px;
+    height: 50px;
+    justify-content: space-between;
+}
+.click1{
+    background-color: #2C4E34;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 45px;
+}
+ion-icon.play{
+    color: #2C4E34;
+    background-color: white;
+    border-radius: 60px;
+    padding: 5px;
+    font-size: 30px;
+    display: flex;
+    margin-left: 10px;
+}
+.clientzin{
+    background-color: #E8E8E8;
+    font-weight: 700;
+    
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding-top: 80px;
+    margin-top: 50px 0;
+}
+p.client{
+    color: #FFA800;
+    font-size: 28px;
+}
+span.client{
+    color: black;
+}
+p.client1{
+    color: black;
+    font-size: 40px;
+}
+p.client2{
+    color: #FFA800;
+    font-size: 40px;
+}
+.arrowww{
+    padding-bottom: 150px;
+}
+.re8{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+.re7{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding-bottom: auto;
+    margin: 20px;
+    margin-top: 50px;
+}
+.re71{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding-bottom: auto;
+}
+.re72{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding-bottom: auto;
+    margin: 20px;
+    margin-top: 50px;
+}
+img.stargiven{
+    width: 150px;
+    height: 25px;
+}
+p.stargiven{
+    font-size: 28px;
+    padding-left: 8px;
+}
+.re4{
+    display: flex;
+    align-items: center;
+}
+.re2{
+    color: #888888;
+    padding: 10px;
+    font-size: 18px;
+}
+.re3{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+.re6{
+    font-size: 20px;
+}
+p.role{
+    color: #818181;
+}
+.arrowww{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 75px;
+}
+@media screen and (max-width: 600px) {
+    .header3{
+        display: none;
+    } 
+    img.two{
+        display: none;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+    .re8{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog{
+        display: flex;
+        flex-direction: column;
+    }
+}
